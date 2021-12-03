@@ -1,10 +1,10 @@
 import java.util.Vector;
 
 public class Department {
-    private final String name; // the name of school Dept of Computing and Info Science
-    private final String id; // short name for courses SOFE, ELEE, STAT, etc
-    private final Vector<Course> courseList; // all courses offered by the department
-    private final Vector<Student> registerList; // all students taking courses in the department.
+    private final String name;
+    private final String id;
+    private final Vector<Course> courseList; //variable for the courses offered by the department
+    private final Vector<Student> registerList; //variable for students taking courses in the department.
 
     public Department(String name, String id) {
         this.name = name;
